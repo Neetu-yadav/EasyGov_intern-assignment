@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+ font-family: 'Popins' sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+  
+    justify-content: center;
+    align-items: center;
+    min-height: 102vh;
+}
+img{
+    max-width: 200px;
+    float: left;
+}
+.wrapper{
+    
+    width: 100%;
+}
+.text-box{
+    color: black;
+
+}
+.text-box h3{
+    font-size: 5;
+    position:static;
+
+}
+.text-box p{
+    font-size: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  margin: 12px 0;
+  padding: 10px 21px;
+  border-radius: 10px;
+  border: 2px solid darkblue;
+  font-size: 18px;
+  background: darkblue;
+  color:white;
+  font-weight: bold;
+
+}
+.flex-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.flex-box{
+  width: 90px;
+  height: 50px;
+  border: 1px solid;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  
+  margin: 15px;
+}
+.flex-box span{
+color: rgb(214, 214, 58);
+
+padding-top: 2px;
+}
+
+
+
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  display: flex;
+  z-index: 1000;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navbar a {
+  padding: 1rem;
+  font-size: 1rem;
+  background: darkblue;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+
+}
+
+@media (max-width: 768px) {}
+  .heading {
+    font-size: 12vw;
+  }
+  .navbar a i {
+    padding: 0;
+  }
+  .navbar a span {
+    display: none;
+  }
+  .navbar a:hover {
+    padding-bottom: 2rem;
+  }
+  
+  
+
+@media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+  }
